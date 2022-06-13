@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Noto+Sans+JP&family=Roboto&display=swap');
+
+/*font-family: 'Lobster', cursive;
+font-family: 'Noto Sans JP', sans-serif;
+font-family: 'Roboto', sans-serif;*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    background-color: #db7542;
+    /* background-color: #db3a2e; */
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.7rem;
+    position: sticky;
+    top: 0;
+    height: 110px;
+    ;
+}
+
+.color-text {
+    color: #f5bbae;
+    font-size: 55px
+}
+
+.dropbtn {
+    background-color: #572925;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    height: 50px;
+    border-radius: 4px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.header {
+    margin: auto;
+    /* height: 50px;
+    width: 100%; */
+}
+
+.subheader {
+    background: #f9f8f7;
+    color: rgb(223, 108, 7);
+    /* color:#db3a2e; */
+    box-shadow: 3px 3px 10px #888888;
+    font-size: 14px;
+    padding: 10px;
+    width: 90%;
+    margin: 0 auto 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 40px;
+}
+
+.subheader p {
+    font-family: 'Lobster', cursive;
+    padding: 20px;
+    margin-left: 50px;
+
+}
+
+.subheader-1 {
+    background: #f9f8f7;
+    color: rgb(223, 108, 7);
+    /* color:#db3a2e; */
+    box-shadow: 3px 3px 10px #888888;
+    font-size: 14px;
+    padding: 10px;
+    width: 90%;
+    margin: 0 auto 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 40px;
+
+}
+
+.subheader-1 p {
+    font-family: 'Lobster', cursive;
+    padding: 20px;
+    margin-left: 50px;
+
+}
+
+.section {
+    margin-left: 90px;
+
+}
+.img{
+    margin-left:30px;
+}
+
+
+
+footer {
+    background: #f5bbae;
+    color: white;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    font-size: 1.4rem;
+    /* position:sticky; */
+
+}
+
+.app-footer {
+    flex-shrink: 0;
+    background: #db7542;
+    color: #572925;
+    padding: 10px;
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+.app-footer ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.app-footer ul li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.app-footer ul li i {
+    font-size: 25px;
+}
